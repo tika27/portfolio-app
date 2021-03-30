@@ -1,38 +1,31 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+:root {
+  --primary-white: #fff;
+  --primary-green: rgb(139, 241, 139);
+  --primary-dark: blue;
+}
+body {
+  font-family: "Open Sans" sans-serif;
+}
+nav a.nav-link {
+  /* font-weight: 500; */
+  letter-spacing: 0.6px;
+  cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav ul li {
+  text-transform: uppercase;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-nav > li > a {
+  margin-right: 12px;
+  margin-left: 12px;
+  color: var(--primary-white) !important;
+  border-top: 3px solid var(--primary-dark);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-nav > li > a.active,
+.navbar-nav > li > a:focus {
+  border-top: 3px solid var (--primary-green);
 }
