@@ -1,32 +1,38 @@
-:root {
-  --primary-white: #fff;
-}
-body {
-  font-family: "Times New Roman", Times, serif;
-}
-nav a.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.6px;
-  cursor: pointer;
+.App {
+  text-align: center;
 }
 
-nav ul li {
-  text-align: uppercase;
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
-.navbar-nav > li > a {
-  margin-right: 12px;
-  margin-left: 12px;
-  color: var(--primary-white) !important;
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
-.navbar-brand {
-  max-width: 17.25rem;
-  padding: 0 !important;
-  height: 6rem !important;
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
 
-/* .navbar-nav > li > a.active,
-.navbar-nav > li > a:focus {
-  border-top: 0.1857rem solid var(--primary-red);
-} */
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
