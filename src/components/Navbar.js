@@ -32,13 +32,14 @@ function Navbar() {
           </li>
 
         </ul>
-      </nav>
-      <footer className= "footer">
+
+        <footer className= "footer">
           <p>
               @2021 Lorem Ipsum
-
           </p>
       </footer>
+
+      </nav>
       
     </div>
   )
