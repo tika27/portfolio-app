@@ -1,18 +1,13 @@
-import './App.scss'
-import NavBar from './components/NavBar';
+import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
-import React from 'react'
 
 function App() {
   return (
-    <div className= "App">
-      <div className="sidebar">
-      <NavBar />
-      </div>
-      <div className="main-contain"></div>
-      
+    <div>
+      <h2>hello</h2>
     </div>
-  )
+  );
 }
 
 export default App;
