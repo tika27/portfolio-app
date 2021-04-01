@@ -1,3 +1,18 @@
 .app {
+  display: flex;
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1280px;
+  border-radius: 10px;
+  flex-direction: column;
+  background-color: pink;
   text-align: center;
+}
+
+@media (min-width: 800px) {
+  .app {
+    padding: 0 100px;
+    margin-top: 5vh;
+    min-height: 90vh;
+  }
 }
